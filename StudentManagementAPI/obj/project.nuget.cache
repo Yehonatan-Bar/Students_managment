@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "AecZqqZm26E=",
-  "success": false,
+  "dgSpecHash": "mQ6WjoOKwCc=",
+  "success": true,
   "projectFilePath": "C:\\Users\\yonzb\\OneDrive\\Documents\\Ai_Projects\\the_open_uni\\StudentManagementAPI\\StudentManagementAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yonzb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -25,9 +25,9 @@
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.7\\microsoft.entityframeworkcore.sqlite.core.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.7\\microsoft.entityframeworkcore.tools.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
-    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\8.0.0\\microsoft.extensions.caching.stackexchangeredis.8.0.0.nupkg.sha512",
+    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.7\\microsoft.extensions.caching.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.7\\microsoft.extensions.caching.memory.9.0.7.nupkg.sha512",
+    "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\9.0.7\\microsoft.extensions.caching.stackexchangeredis.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.7\\microsoft.extensions.configuration.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512",
@@ -43,7 +43,7 @@
     "C:\\Users\\yonzb\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
-    "C:\\Users\\yonzb\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\yonzb\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
@@ -65,34 +65,5 @@
     "C:\\Users\\yonzb\\.nuget\\packages\\system.text.json\\9.0.7\\system.text.json.9.0.7.nupkg.sha512",
     "C:\\Users\\yonzb\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Caching.Memory from 9.0.7 to 8.0.0. Reference the package directly from the project to select a different version. \r\n StudentManagementAPI -> Microsoft.EntityFrameworkCore.Sqlite 9.0.7 -> Microsoft.Extensions.Caching.Memory (>= 9.0.7) \r\n StudentManagementAPI -> Microsoft.Extensions.Caching.Memory (>= 8.0.0)",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Caching.Memory from 9.0.7 to 8.0.0. Reference the package directly from the project to select a different version. \r\n StudentManagementAPI -> Microsoft.EntityFrameworkCore.Tools 9.0.7 -> Microsoft.EntityFrameworkCore.Design 9.0.7 -> Microsoft.Extensions.Caching.Memory (>= 9.0.7) \r\n StudentManagementAPI -> Microsoft.Extensions.Caching.Memory (>= 8.0.0)",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

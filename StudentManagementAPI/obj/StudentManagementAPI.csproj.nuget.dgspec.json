@@ -61,11 +61,11 @@
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
