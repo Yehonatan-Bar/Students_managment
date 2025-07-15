@@ -1,0 +1,66 @@
+Open University Homework Assignment
+
+Homework Assignment – Student Management System
+
+Backend – ASP.NET Core/framework Web API
+
+Requirements:
+- Build a RESTful API for managing a students table, including full CRUD.
+- Data access, use Entity Framework Core.
+- Handle standard HTTP errors (404, 400, 500 etc.).
+- Maintain a standard project structure with separation between Controllers, Services and Models.
+
+Table fields:
+StudentId, FullName, BirthDate, Average grade, IsActive
+
+Required operations:
+- GET /students
+- GET /students/{id}
+- POST /students
+- PUT /students/{id}
+- DELETE /students/{id}
+
+Database:
+You should use SQLite.
+
+User interface:
+- POST /students
+- PUT /students/{id}
+- DELETE /students/{id}
+
+User interface:
+- Mandatory to develop a Web interface that displays the student data, performance should be considered.
+- Use vue3.
+- Do not allow adding/editing/deleting of students.
+
+
+● 3-Phase Implementation Plan
+
+  Phase 1: Client-Side (Vue3)
+
+  - Set up Vue3 project with Vite
+  - Create StudentList component to display students in a performant table/grid
+  - Implement API service layer with axios for GET requests
+  - Add loading states and error handling
+  - Optimize rendering with virtual scrolling for large datasets
+  - Style with responsive design
+
+  Phase 2: Server-Side (ASP.NET Core)
+
+  - Create ASP.NET Core Web API project
+  - Define Student model with required fields
+  - Implement StudentsController with all CRUD endpoints
+  - Create StudentService for business logic separation
+  - Add proper HTTP status codes and error handling
+  - Configure CORS for Vue3 frontend
+  - Add model validation attributes
+
+  Phase 3: Database (SQLite)
+
+  - Install Entity Framework Core SQLite packages
+  - Create StudentDbContext
+  - Define Student entity with proper data annotations
+  - Generate initial migration
+  - Configure connection string in appsettings.json
+  - Seed sample data for testing
+  - Ensure proper indexing on StudentId

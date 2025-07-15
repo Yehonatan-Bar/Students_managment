@@ -1,0 +1,61 @@
+# Documentation and instruction files
+General Instructions.txt
+משימת בית האוני הפתוחה.txt
+Open University Homework Assignment.txt
+
+# Optimization documentation
+הצעה לאופטימיזציהץאסא
+יפול בכמויות גדולות.md
+
+# Visual Studio files
+the_open_uni.sln
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+WhatsApp Image*.jpeg
+26d277fd-87ba-4b85-be5d-df2e25b1817a.jpg
+
+# Common development files
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+Thumbs.db
+.DS_Store
+
+# Build outputs
+bin/
+obj/
+dist/
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database files
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+*~
